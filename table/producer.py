@@ -4,7 +4,7 @@ from sqlalchemy.orm import Mapped, mapped_column
 from sqlalchemy.types import *
 import datetime
 
-class Producers(BaseTable):
+class ProducersDTO(BaseTable):
     __tablename__ = 'Producers'
 
     ID: Mapped[BaseTable.type_annotation_map['IID']]

@@ -4,7 +4,7 @@ from sqlalchemy.orm import Mapped, mapped_column
 from sqlalchemy.types import *
 import datetime
 
-class Orders(BaseTable):
+class OrdersDTO(BaseTable):
     __tablename__ = 'Orders'
 
     ID: Mapped[BaseTable.type_annotation_map['IID']]
